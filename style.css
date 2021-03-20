@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+.head_div {
+    float: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.head {
+    background-color: rgb(58, 58, 58);
+    width: 100%;
+    margin-top: -0px;
+    font-size: 22px;
+    color: crimson;
+}
+.head:hover {
+    background-color:  rgb(58, 58, 58);
+    color: lightblue;
+}
+.footer {
+    background-color: rgb(58, 58, 58);
+    margin-top: 350px;
+    width: 100%;
+    line-height: 2;
+}
+
+@keyframes animate {
+    from {background-color: white;}
+    to {background-color: lightgreen;}
+    from {box-shadow: 5px 5px 10px white;}
+    to {box-shadow: 5px 5px 10px lightgreen;}
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 100px;
+    animation-name: animate2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate2 {
+    from {border-color: white;}
+    to {border-color: lightgreen;}
+    from {box-shadow: 5px 5px 10px white;}
+    to {box-shadow: 5px 5px 10px lightgreen;}
+}
